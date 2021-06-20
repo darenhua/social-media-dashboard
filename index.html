@@ -7,77 +7,282 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/main.css">
   <title>Frontend Mentor | [Challenge Name Here]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 </head>
 <body>
+<header>
+  <div class="container">
+    <div class="title">
+      <h3 class="bold heading">
+        Social Media Dashboard
+      </h3>
+      <p class="bold subheading">
+        Total Followers: 23,004
+      </p>
+    </div>
+    <label class="switch">
+      Dark Mode
+      <input type="checkbox">
+      <span class="slider round"></span>
+    </label>
+  </div>
+</header>
+<section class="dashboard">
+  <div class="container">
+    <div class="dashboard-card">
+      <div class="username-container">
+        <img src="images/icon-facebook.svg" alt="facebook">
+        <p class="bold username">
+          @nathanf
+        </p>
+      </div>
+      <p class="bold dashboard-stat">
+        1987
+      </p>
+      <p class="regular followers">
+        Followers
+      </p>
+      <div class="change-container">
+        <img src="images/icon-up.svg" alt="up arrow">
+        <p class="bold up-stat">
+          12 Today
+        </p>
+      </div>
+    </div>
+    <div class="dashboard-card">
+      <div class="username-container">
+        <img src="images/icon-twitter.svg" alt="facebook">
+        <p class="bold username">
+          @nathanf
+        </p>
+      </div>
+      <p class="bold dashboard-stat">
+        1044
+      </p>
+      <p class="regular followers">
+        Followers
+      </p>
+      <div class="change-container">
+        <img src="images/icon-up.svg" alt="up arrow">
+        <p class="bold up-stat">
+          99 Today
+        </p>
+      </div>
+    </div>
+    <div class="dashboard-card">
+      <div class="username-container">
+        <img src="images/icon-instagram.svg" alt="facebook">
+        <p class="bold username">
+          @realnathanf
+        </p>
+      </div>
+      <p class="bold dashboard-stat">
+        11k
+      </p>
+      <p class="regular followers">
+        Followers
+      </p>
+      <div class="change-container">
+        <img src="images/icon-up.svg" alt="up arrow">
+        <p class="bold up-stat">
+          1099 Today
+        </p>
+      </div>
+    </div>
+    <div class="dashboard-card">
+      <div class="username-container">
+        <img src="images/icon-youtube.svg" alt="facebook">
+        <p class="bold username">
+          Nathan F.
+        </p>
+      </div>
+      <p class="bold dashboard-stat">
+        8239
+      </p>
+      <p class="regular followers">
+        Subscribers
+      </p>
+      <div class="change-container">
+        <img src="images/icon-down.svg" alt="up arrow">
+        <p class="bold down-stat">
+          144 Today
+        </p>
+      </div>
+    </div>
 
-  Social Media Dashboard
-  Total Followers: 23,004
-
-  Dark Mode
-
+  </div>
+</section>
+<section class="overview">
+  <h3 class="bold overview-heading">
+    Overview - Today
+  </h3>
+  <div class="container">
+    <div class="sm-card">
+      <div class="sm-wrapper">
+        <p class="bold sm-head">
+          Page Views
+        </p>
+        <img src="images/icon-facebook.svg" alt="facebook">
+      </div>
+      <div class="sm-wrapper">
+        <p class="bold sm-stat">
+          87
+        </p>
+        <div class="change-container">
+          <img src="images/icon-up.svg" alt="facebook">
+          <p class="bold sm up-stat">
+            3%
+          </p>
   
-
-  @nathanf
-  1987
-  Followers
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
+        </div>
+      </div>
+    </div>
+    <div class="sm-card">
+      <div class="sm-wrapper">
+        <p class="bold sm-head">
+          Likes
+        </p>
+        <img src="images/icon-facebook.svg" alt="facebook">
+      </div>
+      <div class="sm-wrapper">
+        <p class="bold sm-stat">
+          52
+        </p>
+        <div class="change-container">
+          <img src="images/icon-down.svg" alt="facebook">
+          <p class="bold sm down-stat">
+            2%
+          </p>
   
+        </div>
+      </div>
+    </div>
+    <div class="sm-card">
+      <div class="sm-wrapper">
+        <p class="bold sm-head">
+          Likes
+        </p>
+        <img src="images/icon-instagram.svg" alt="facebook">
+      </div>
+      <div class="sm-wrapper">
+        <p class="bold sm-stat">
+          5462
+        </p>
+        <div class="change-container">
+          <img src="images/icon-up.svg" alt="facebook">
+          <p class="bold sm up-stat">
+            2257%
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="sm-card">
+      <div class="sm-wrapper">
+        <p class="bold sm-head">
+          Profile Views
+        </p>
+        <img src="images/icon-instagram.svg" alt="facebook">
+      </div>
+      <div class="sm-wrapper">
+        <p class="bold sm-stat">
+          52k
+        </p>
+        <div class="change-container">
+          <img src="images/icon-up.svg" alt="facebook">
+          <p class="bold sm up-stat">
+            1375%
+          </p>
+  
+        </div>
+      </div>
+    </div>
+    <div class="sm-card">
+      <div class="sm-wrapper">
+        <p class="bold sm-head">
+          Retweets
+        </p>
+        <img src="images/icon-twitter.svg" alt="facebook">
+      </div>
+      <div class="sm-wrapper">
+        <p class="bold sm-stat">
+          117
+        </p>
+        <div class="change-container">
+          <img src="images/icon-up.svg" alt="facebook">
+          <p class="bold sm up-stat">
+            303%
+          </p>
+  
+        </div>
+      </div>
+    </div>
+    <div class="sm-card">
+      <div class="sm-wrapper">
+        <p class="bold sm-head">
+          Likes
+        </p>
+        <img src="images/icon-twitter.svg" alt="facebook">
+      </div>
+      <div class="sm-wrapper">
+        <p class="bold sm-stat">
+          507
+        </p>
+        <div class="change-container">
+          <img src="images/icon-up.svg" alt="facebook">
+          <p class="bold sm up-stat">
+            553%
+          </p>
+  
+        </div>
+      </div>
+    </div>
+    <div class="sm-card">
+      <div class="sm-wrapper">
+        <p class="bold sm-head">
+          Likes
+        </p>
+        <img src="images/icon-youtube.svg" alt="facebook">
+      </div>
+      <div class="sm-wrapper">
+        <p class="bold sm-stat">
+          107
+        </p>
+        <div class="change-container">
+          <img src="images/icon-down.svg" alt="facebook">
+          <p class="bold sm down-stat">
+            19%
+          </p>
+  
+        </div>
+      </div>
+    </div>
+    <div class="sm-card">
+      <div class="sm-wrapper">
+        <p class="bold sm-head">
+          Total Views
+        </p>
+        <img src="images/icon-facebook.svg" alt="facebook">
+      </div>
+      <div class="sm-wrapper">
+        <p class="bold sm-stat">
+          1407
+        </p>
+        <div class="change-container">
+          <img src="images/icon-down.svg" alt="facebook">
+          <p class="bold sm down-stat">
+            12%
+          </p>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container">
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Daren Hua</a>.
   </div>
+</div>
 </body>
 </html>

@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 /* Box sizing rules */
 *,
 *::before,
@@ -78,4 +79,141 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+body .bold {
+  font-weight: 700;
+}
+body .heading {
+  font-size: 28px;
+  line-height: 1.2;
+}
+body .subheading {
+  font-size: 14px;
+}
+body .switch-label {
+  font-size: 14px;
+  color: white;
+}
+body .username {
+  font-size: 12px;
+}
+body .dashboard-stat {
+  font-size: 48px;
+}
+body .followers {
+  font-size: 12px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+body .up-stat,
+body .down-stat {
+  font-size: 12px;
+}
+body .sm-head {
+  font-size: 14px;
+}
+body .sm-stat {
+  font-size: 28px;
+}
+body .sm {
+  font-size: 10px;
+}
+body .attribution {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+body {
+  background-color: #1e202a;
+  color: white;
+}
+body a {
+  color: white;
+}
+body .subheading,
+body .username,
+body .followers,
+body .sm-head {
+  color: #8b97c6;
+}
+body .up-stat {
+  color: #1db489;
+}
+body .down-stat {
+  color: #dc414c;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+}
+
+.switch-label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, #378fe6 0%, #3eda82 100%);
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #1f212e;
+  transition: 0.4s;
+}
+
+input:checked + .slider:before {
+  background: white;
+}
+
+input:checked + .slider {
+  background: linear-gradient(90deg, #3eda82 0%, #378fe6 100%);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
 }/*# sourceMappingURL=main.css.map */

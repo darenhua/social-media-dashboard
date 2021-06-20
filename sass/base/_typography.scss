@@ -1,0 +1,60 @@
+@use '../util/index' as *;
+
+body {
+  font-family: $ff-body;
+  font-weight: 400;
+  .bold {
+    font-weight: 700;
+  }
+
+  .heading {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .subheading {
+    font-size: 14px;
+  }
+
+  .switch-label {
+    font-size: 14px;
+    color: $dark-txt-num;
+  }
+
+  .username {
+    font-size: 12px;
+  }
+
+  .dashboard-stat {
+    font-size: 48px;
+  }
+
+  .followers {
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+  .up-stat,
+  .down-stat {
+    font-size: 12px;
+  }
+
+  .sm-head {
+    font-size: 14px;
+  }
+
+  .sm-stat {
+    font-size: 28px;
+  }
+
+  .sm {
+    font-size: 10px;
+  }
+
+  .attribution {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 3px;
+  }
+}

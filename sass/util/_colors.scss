@@ -23,7 +23,13 @@ $dark-txt-sub: hsl(228, 34%, 66%);
 $dark-txt-num: hsl(0, 0%, 100%);
 
 //Light Theme
-$light-toggle: hsl(230, 22%, 74%);
+$light-toggle: linear-gradient(
+  90deg,
+  rgba(62, 218, 130, 1) 0%,
+  rgba(55, 143, 230, 1) 100%
+);
+
+//hsl(230, 22%, 74%);
 $light-bg-bot: hsl(0, 0%, 100%);
 $light-bg-top: hsl(225, 100%, 98%);
 $light-bg-card: hsl(227, 47%, 96%);

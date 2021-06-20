@@ -1,0 +1,21 @@
+@use '../util/index' as *;
+body {
+  background-color: $dark-bg-bot;
+  color: white;
+  a {
+    color: white;
+  }
+  .subheading,
+  .username,
+  .followers,
+  .sm-head {
+    color: $dark-txt-sub;
+  }
+
+  .up-stat {
+    color: $clr-increase;
+  }
+  .down-stat {
+    color: $clr-decrease;
+  }
+}

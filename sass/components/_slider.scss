@@ -73,3 +73,10 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+@media screen and (max-width: 375px) {
+  .toggle {
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+}

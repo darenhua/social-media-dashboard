@@ -37,3 +37,14 @@ section {
   border-width: 3px;
   border-image-source: $clr-insta;
 }
+
+@media screen and (max-width: 375px) {
+  .dash-container {
+    flex-wrap: wrap;
+  }
+  .flex-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px 20px;
+  }
+}

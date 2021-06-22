@@ -3,9 +3,42 @@
 header {
   background-color: var(--bg-top);
   min-height: 200px;
+  width: 100vw;
   .header-container {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header {
+    min-height: 270px;
+  }
+  h3.heading {
+    font-size: 22px;
+  }
+  p.subheading {
+    font-size: 12px;
+    padding: 5px 0;
+    margin-bottom: 10px;
+  }
+  .title {
+    border-bottom: 1px solid rgba(159, 159, 159, 0.469);
+  }
+  .header-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 950px) {
+  h3.heading {
+    font-size: 15px;
+  }
+  p.dashboard-stat {
+    font-size: 15px;
+  }
+  p.followers {
+    letter-spacing: 2px;
   }
 }

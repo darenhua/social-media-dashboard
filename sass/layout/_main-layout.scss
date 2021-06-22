@@ -1,0 +1,39 @@
+@use '../util/index' as *;
+
+.dash-container {
+  display: flex;
+  gap: 20px;
+}
+
+.flex-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px 20px;
+}
+
+.overview-heading {
+  margin: 20px 0px;
+  margin-bottom: 10px;
+}
+
+section {
+  position: relative;
+  bottom: 115px;
+}
+
+.fb-card {
+  border-top: 3px $clr-fb solid;
+}
+.twit-card {
+  border-top: 3px $clr-twitter solid;
+}
+.yt-card {
+  border-top: 3px $clr-yt solid;
+}
+.insta-card {
+  border-top: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: $clr-insta;
+}

@@ -1,0 +1,28 @@
+@use '../util/index' as *;
+.sm-card {
+  width: 100%;
+  background-color: var(--card);
+  transition: background-color 1s;
+  border-radius: 3px;
+  padding: 20px;
+  max-height: 100%;
+  .sm-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &.stat {
+      align-items: flex-end;
+      padding-top: 20px;
+      .sm-stat {
+        line-height: 1;
+      }
+    }
+  }
+  .change-container {
+    display: flex;
+    align-items: center;
+    p {
+      margin-left: 3px;
+    }
+  }
+}

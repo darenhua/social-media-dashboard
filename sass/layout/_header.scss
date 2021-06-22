@@ -1,0 +1,11 @@
+@use '../util/index' as *;
+
+header {
+  background-color: var(--bg-top);
+  min-height: 200px;
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+  }
+}

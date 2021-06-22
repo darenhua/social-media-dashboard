@@ -8,9 +8,9 @@
   <link rel="stylesheet" href="css/main.css">
   <title>Frontend Mentor | Social Media Dashboard</title>
 </head>
-<body>
+<body class="dark-theme">
 <header>
-  <div class="container">
+  <div class="container header-container">
     <div class="title">
       <h3 class="bold heading">
         Social Media Dashboard
@@ -31,8 +31,8 @@
   </div>
 </header>
 <section class="dashboard">
-  <div class="container">
-    <div class="dashboard-card">
+  <div class="container dash-container">
+    <div class="dashboard-card fb-card">
       <div class="username-container">
         <img src="images/icon-facebook.svg" alt="facebook">
         <p class="bold username">
@@ -52,7 +52,7 @@
         </p>
       </div>
     </div>
-    <div class="dashboard-card">
+    <div class="dashboard-card twit-card">
       <div class="username-container">
         <img src="images/icon-twitter.svg" alt="facebook">
         <p class="bold username">
@@ -72,7 +72,7 @@
         </p>
       </div>
     </div>
-    <div class="dashboard-card">
+    <div class="dashboard-card insta-card">
       <div class="username-container">
         <img src="images/icon-instagram.svg" alt="facebook">
         <p class="bold username">
@@ -92,7 +92,7 @@
         </p>
       </div>
     </div>
-    <div class="dashboard-card">
+    <div class="dashboard-card yt-card">
       <div class="username-container">
         <img src="images/icon-youtube.svg" alt="facebook">
         <p class="bold username">
@@ -116,177 +116,166 @@
   </div>
 </section>
 <section class="overview">
-  <h3 class="bold heading">
-    Overview - Today
-  </h3>
-  <div class="container">
-    <div class="sm-card">
-      <div class="sm-wrapper">
-        <p class="bold sm-head">
-          Page Views
-        </p>
-        <img src="images/icon-facebook.svg" alt="facebook">
-      </div>
-      <div class="sm-wrapper">
-        <p class="bold sm-stat">
-          87
-        </p>
-        <div class="change-container">
-          <img src="images/icon-up.svg" alt="facebook">
-          <p class="bold sm up-stat">
-            3%
+  <div class="container"> 
+    <h3 class="bold overview-heading">
+      Overview - Today
+    </h3> 
+    <div class="flex-container">
+      <div class="sm-card">
+        <div class="sm-wrapper">
+          <p class="bold sm-head">
+            Page Views
           </p>
-  
+          <img src="images/icon-facebook.svg" alt="facebook">
+        </div>
+        <div class="sm-wrapper stat">
+          <p class="bold sm-stat">
+            87
+          </p>
+          <div class="change-container">
+            <img src="images/icon-up.svg" alt="facebook">
+            <p class="bold sm up-stat">
+              3%
+            </p>
+          </div>
         </div>
       </div>
+      <div class="sm-card">
+        <div class="sm-wrapper">
+          <p class="bold sm-head">
+            Likes
+          </p>
+          <img src="images/icon-facebook.svg" alt="facebook">
+        </div>
+        <div class="sm-wrapper stat">
+          <p class="bold sm-stat">
+            52
+          </p>
+          <div class="change-container">
+            <img src="images/icon-down.svg" alt="facebook">
+            <p class="bold sm down-stat">
+              2%
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sm-card">
+        <div class="sm-wrapper">
+          <p class="bold sm-head">
+            Likes
+          </p>
+          <img src="images/icon-instagram.svg" alt="facebook">
+        </div>
+        <div class="sm-wrapper stat">
+          <p class="bold sm-stat">
+            5462
+          </p>
+          <div class="change-container">
+            <img src="images/icon-up.svg" alt="facebook">
+            <p class="bold sm up-stat">
+              2257%
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sm-card">
+        <div class="sm-wrapper">
+          <p class="bold sm-head">
+            Profile Views
+          </p>
+          <img src="images/icon-instagram.svg" alt="facebook">
+        </div>
+        <div class="sm-wrapper stat">
+          <p class="bold sm-stat">
+            52k
+          </p>
+          <div class="change-container">
+            <img src="images/icon-up.svg" alt="facebook">
+            <p class="bold sm up-stat">
+              1375%
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sm-card">
+        <div class="sm-wrapper">
+          <p class="bold sm-head">
+            Retweets
+          </p>
+          <img src="images/icon-twitter.svg" alt="facebook">
+        </div>
+        <div class="sm-wrapper stat">
+          <p class="bold sm-stat">
+            117
+          </p>
+          <div class="change-container">
+            <img src="images/icon-up.svg" alt="facebook">
+            <p class="bold sm up-stat">
+              303%
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sm-card">
+        <div class="sm-wrapper">
+          <p class="bold sm-head">
+            Likes
+          </p>
+          <img src="images/icon-twitter.svg" alt="facebook">
+        </div>
+        <div class="sm-wrapper stat">
+          <p class="bold sm-stat">
+            507
+          </p>
+          <div class="change-container">
+            <img src="images/icon-up.svg" alt="facebook">
+            <p class="bold sm up-stat">
+              553%
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sm-card">
+        <div class="sm-wrapper">
+          <p class="bold sm-head">
+            Likes
+          </p>
+          <img src="images/icon-youtube.svg" alt="facebook">
+        </div>
+        <div class="sm-wrapper stat">
+          <p class="bold sm-stat">
+            107
+          </p>
+          <div class="change-container">
+            <img src="images/icon-down.svg" alt="facebook">
+            <p class="bold sm down-stat">
+              19%
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sm-card">
+        <div class="sm-wrapper">
+          <p class="bold sm-head">
+            Total Views
+          </p>
+          <img src="images/icon-youtube.svg" alt="facebook">
+        </div>
+        <div class="sm-wrapper stat">
+          <p class="bold sm-stat">
+            1407
+          </p>
+          <div class="change-container">
+            <img src="images/icon-down.svg" alt="facebook">
+            <p class="bold sm down-stat">
+              12%
+            </p>
+          </div>
+        </div>
     </div>
-    <div class="sm-card">
-      <div class="sm-wrapper">
-        <p class="bold sm-head">
-          Likes
-        </p>
-        <img src="images/icon-facebook.svg" alt="facebook">
-      </div>
-      <div class="sm-wrapper">
-        <p class="bold sm-stat">
-          52
-        </p>
-        <div class="change-container">
-          <img src="images/icon-down.svg" alt="facebook">
-          <p class="bold sm down-stat">
-            2%
-          </p>
-  
-        </div>
-      </div>
-    </div>
-    <div class="sm-card">
-      <div class="sm-wrapper">
-        <p class="bold sm-head">
-          Likes
-        </p>
-        <img src="images/icon-instagram.svg" alt="facebook">
-      </div>
-      <div class="sm-wrapper">
-        <p class="bold sm-stat">
-          5462
-        </p>
-        <div class="change-container">
-          <img src="images/icon-up.svg" alt="facebook">
-          <p class="bold sm up-stat">
-            2257%
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="sm-card">
-      <div class="sm-wrapper">
-        <p class="bold sm-head">
-          Profile Views
-        </p>
-        <img src="images/icon-instagram.svg" alt="facebook">
-      </div>
-      <div class="sm-wrapper">
-        <p class="bold sm-stat">
-          52k
-        </p>
-        <div class="change-container">
-          <img src="images/icon-up.svg" alt="facebook">
-          <p class="bold sm up-stat">
-            1375%
-          </p>
-  
-        </div>
-      </div>
-    </div>
-    <div class="sm-card">
-      <div class="sm-wrapper">
-        <p class="bold sm-head">
-          Retweets
-        </p>
-        <img src="images/icon-twitter.svg" alt="facebook">
-      </div>
-      <div class="sm-wrapper">
-        <p class="bold sm-stat">
-          117
-        </p>
-        <div class="change-container">
-          <img src="images/icon-up.svg" alt="facebook">
-          <p class="bold sm up-stat">
-            303%
-          </p>
-  
-        </div>
-      </div>
-    </div>
-    <div class="sm-card">
-      <div class="sm-wrapper">
-        <p class="bold sm-head">
-          Likes
-        </p>
-        <img src="images/icon-twitter.svg" alt="facebook">
-      </div>
-      <div class="sm-wrapper">
-        <p class="bold sm-stat">
-          507
-        </p>
-        <div class="change-container">
-          <img src="images/icon-up.svg" alt="facebook">
-          <p class="bold sm up-stat">
-            553%
-          </p>
-  
-        </div>
-      </div>
-    </div>
-    <div class="sm-card">
-      <div class="sm-wrapper">
-        <p class="bold sm-head">
-          Likes
-        </p>
-        <img src="images/icon-youtube.svg" alt="facebook">
-      </div>
-      <div class="sm-wrapper">
-        <p class="bold sm-stat">
-          107
-        </p>
-        <div class="change-container">
-          <img src="images/icon-down.svg" alt="facebook">
-          <p class="bold sm down-stat">
-            19%
-          </p>
-  
-        </div>
-      </div>
-    </div>
-    <div class="sm-card">
-      <div class="sm-wrapper">
-        <p class="bold sm-head">
-          Total Views
-        </p>
-        <img src="images/icon-facebook.svg" alt="facebook">
-      </div>
-      <div class="sm-wrapper">
-        <p class="bold sm-stat">
-          1407
-        </p>
-        <div class="change-container">
-          <img src="images/icon-down.svg" alt="facebook">
-          <p class="bold sm down-stat">
-            12%
-          </p>
-  
-        </div>
-      </div>
     </div>
   </div>
 </section>
-
-<div class="container">
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Daren Hua</a>.
-  </div>
-</div>
+<script src="js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,22 @@
+@use '../util/index' as *;
+.dashboard-card {
+  width: 100%;
+  background-color: var(--card);
+  transition: background-color 1s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top: 3px blue solid;
+  .username-container,
+  .change-container {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+  }
+  .username-container p {
+    margin-left: 10px;
+  }
+  .change-container p {
+    margin-left: 5px;
+  }
+}

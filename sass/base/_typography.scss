@@ -8,7 +8,12 @@ body {
   }
 
   .heading {
-    font-size: 28px;
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .overview-heading {
+    font-size: 20px;
     line-height: 1.2;
   }
 
@@ -18,7 +23,8 @@ body {
 
   .switch-label {
     font-size: 14px;
-    color: $dark-txt-num;
+    color: var(--toggle-label);
+    transition: 1s;
   }
 
   .username {
@@ -27,6 +33,7 @@ body {
 
   .dashboard-stat {
     font-size: 48px;
+    line-height: 1.2;
   }
 
   .followers {
@@ -50,11 +57,5 @@ body {
 
   .sm {
     font-size: 10px;
-  }
-
-  .attribution {
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 3px;
   }
 }

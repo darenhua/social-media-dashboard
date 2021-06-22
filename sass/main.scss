@@ -2,11 +2,14 @@
 @use "base/resets";
 @use "base/typography";
 @use "base/base-colors";
+@use "base/container";
+@use "base/theme-set";
 
 //Specifically styled components
 @use "components/dashboard-card";
 @use "components/sm-card";
 @use "components/slider";
+
 //Main layout
 @use "layout/header";
 @use "layout/main-layout";

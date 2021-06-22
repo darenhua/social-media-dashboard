@@ -1,7 +1,9 @@
 @use '../util/index' as *;
 body {
-  background-color: $dark-bg-bot;
+  background-color: var(--bg);
   color: white;
+  transition: background-color 0.5s;
+
   a {
     color: white;
   }
@@ -9,9 +11,15 @@ body {
   .username,
   .followers,
   .sm-head {
-    color: $dark-txt-sub;
+    color: var(--sub);
   }
-
+  .heading,
+  .overview-heading,
+  .dashboard-stat,
+  .sm-stat {
+    color: var(--num);
+    transition: color 0.5s;
+  }
   .up-stat {
     color: $clr-increase;
   }

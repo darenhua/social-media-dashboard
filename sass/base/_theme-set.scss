@@ -1,0 +1,17 @@
+.theme-dark {
+  --bg: hsl(230, 17%, 14%);
+  --bg-top: hsl(232, 19%, 15%);
+  --card: hsl(228, 28%, 20%);
+  --sub: hsl(228, 34%, 66%);
+  --num: hsl(0, 0%, 100%);
+  --toggle-label: hsl(0, 0%, 100%);
+}
+
+.theme-light {
+  --bg: hsl(0, 0%, 100%);
+  --bg-top: hsl(228, 100%, 98%);
+  --card: hsl(227, 47%, 96%);
+  --sub: hsl(228, 12%, 44%);
+  --num: hsl(230, 17%, 14%);
+  --toggle-label: hsl(228, 12%, 44%);
+}
